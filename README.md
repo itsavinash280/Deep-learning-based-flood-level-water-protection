@@ -27,6 +27,11 @@ npm run dev
 Open http://127.0.0.1:4173/. Keep the terminal running; press Ctrl+C to stop it.
 `npm start` is also supported. The same commands work inside `floodwatch/`.
 
+If port 4173 is already busy, the server automatically tries the next available
+port. Open the **Local** URL printed in the terminal. When using a different port,
+add that exact URL with a trailing slash to Supabase Redirect URLs for email links.
+An explicitly configured `PORT` is respected and is not automatically changed.
+
 ## Build and test
 
 ```powershell

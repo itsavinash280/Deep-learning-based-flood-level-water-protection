@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node server.cjs",
     "dev": "node server.cjs",
-    "test": "node --test test.cjs auth.test.cjs ui.test.cjs",
+    "test": "node --test test.cjs auth.test.cjs ui.test.cjs server.test.cjs",
     "build": "node build.cjs"
   },
   "dependencies": {

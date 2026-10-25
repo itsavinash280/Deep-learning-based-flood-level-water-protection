@@ -14,6 +14,10 @@ npm run dev
 
 Open http://127.0.0.1:4173. Stop the server with Ctrl+C. Do not open index.html directly: the browser needs HTTP to load model.json.
 
+If 4173 is occupied, use the next available **Local** URL printed in the terminal.
+Add that URL with a trailing slash to Supabase Redirect URLs if you use signup or
+password recovery on the new port. An explicitly set `PORT` is never changed.
+
 `npm start` also starts the website. These commands also work from the parent
 workspace folder. `node server.cjs` remains available inside this folder.
 
