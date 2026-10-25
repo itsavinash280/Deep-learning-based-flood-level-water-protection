@@ -1,0 +1,12 @@
+.agents/
+.codex/
+.vercel/
+floodwatch/.git/
+floodwatch/.openai/
+floodwatch/node_modules/
+floodwatch/outputs/
+*.zip
+*.tar.gz
+floodwatch-preview.jpg
+.env
+.env.*

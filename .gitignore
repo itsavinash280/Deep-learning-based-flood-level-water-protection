@@ -1,0 +1,12 @@
+.vercel/
+node_modules/
+.env
+.env.*
+!.env.example
+.agents/
+.codex/
+skills-lock.json
+floodwatch/.openai/
+*.zip
+*.tar.gz
+*-preview.jpg

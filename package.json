@@ -1,0 +1,13 @@
+{
+  "name": "floodwatch-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deep learning based flood level water protection mini project",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node floodwatch/server.cjs",
+    "dev": "node floodwatch/server.cjs",
+    "test": "node --test floodwatch/test.cjs floodwatch/auth.test.cjs floodwatch/ui.test.cjs",
+    "build": "npm --prefix floodwatch ci --include=dev && npm --prefix floodwatch run build"
+  }
+}
